@@ -2,7 +2,7 @@
 
 1. 请理解大模型创造的任何一行代码,幻觉问题始终无法消除;
 2. General Promt仅提供初始方向,请仔细配置Project Promt;
-3. 使用支持image输入和高上下文的模型(2025-02-22仍然是Claude-3.5-sonnet-10最好用);
+3. 使用支持image输入和高上下文的模型(Claude-3.7-sonnet-thinking在coding方面最强,多模态还是Claude-3.5-sonnet因为它支持image);
 4. 使用Cursor->Composer->agent模式才能触发MCP(2025-02-22);
 
 ---
@@ -281,5 +281,4 @@ bash <(curl -Lk https://gitee.com/kingparks/cursor-vip/releases/download/latest/
 2. Cline Market(2025-02-21 New Recommended):一键install,懒人化安装,缺点是AI生成的安装速度慢;
 3. 编写Json格式:Github仓库一般会有json格式文件,复制到本地配置即可;
 4. Cline+File Edit MCP Server:让Cline编写json格式实现定制本地的MCP Server,原汤化原食;
-
 
