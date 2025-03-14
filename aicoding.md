@@ -282,3 +282,39 @@ bash <(curl -Lk https://gitee.com/kingparks/cursor-vip/releases/download/latest/
 3. 编写Json格式:Github仓库一般会有json格式文件,复制到本地配置即可;
 4. Cline+File Edit MCP Server:让Cline编写json格式实现定制本地的MCP Server,原汤化原食;
 
+## Win注意事项
+
+```json
+"github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking"
+      ],
+      "disabled": false,
+      "autoApprove": [
+        "sequential_thinking"
+      ]
+    }
+```
+
+这是初始构建的MCPjson文件,其中我们需要把`command`中`npx`的改成`cmd`,并在`args`中添加`/c`和`npx`来调用win的cmd命令行运行对应的MCPServer
+
+修改后的示例:
+
+```json
+"github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking"
+      ],
+      "disabled": false,
+      "autoApprove": [
+        "sequential_thinking"
+      ]
+    }
+```
+
