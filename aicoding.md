@@ -318,3 +318,8 @@ bash <(curl -Lk https://gitee.com/kingparks/cursor-vip/releases/download/latest/
     }
 ```
 
+LLM提示词安装:
+
+```bash
+我需要帮助用户在Windows系统上安装并运行MCP (Model Context Protocol) 服务，特别是@modelcontextprotocol/server-sequential-thinking这个包。根据用户提供的信息，我需要:
+```
