@@ -9,7 +9,7 @@ TestEntrance.isOn = true;
 
 ### pmdatamap:
 
-| index | implications                                                 | example                                                      |      |
+| index | implications                                                 | example                                                      | path |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
 | 0     | 种族Id                                                       | pmdatalist                                                   |      |
 | 1     | 名称                                                         | Name                                                         |      |
