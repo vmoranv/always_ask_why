@@ -12,7 +12,7 @@ TestEntrance.isOn = true;
 | index | implications                                                 | example                                                      | path |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
 | 0     | 种族Id                                                       | pmdatalist                                                   |      |
-| 1     | 名称                                                         | Name                                                         |      |
+| 1     | 亚比名                                                       | Name                                                         |      |
 | 2     | 身高                                                         | Stature                                                      |      |
 | 3     | 体重                                                         | Avoirdupois                                                  |      |
 | 4     | HP                                                           | BaseHP（生命种族值）                                         |      |
